@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.monsanto.commercial</groupId>
+        <artifactId>commercial-pom</artifactId>
+        <version>1.3.2</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.monsanto.commercial.gsc.springappwithwam</groupId>
+    <artifactId>springappwithwam-app</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>SpringAppWithWAM</name>
+    <description>Spring App with WAM</description>
+    <inceptionYear>2014</inceptionYear>
+
+    <modules>
+        <module>springappwithwam-war</module>
+        <module>springappwithwam-ear</module>
+    </modules>
+
+</project>
